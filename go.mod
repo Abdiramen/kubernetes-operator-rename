@@ -1,4 +1,4 @@
-module github.com/ngrok/kubernetes-ingress-controller
+module github.com/Abdiramen/kubernetes-operator-rename
 
 go 1.21
 

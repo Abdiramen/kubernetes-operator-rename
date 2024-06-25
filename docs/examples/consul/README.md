@@ -35,7 +35,7 @@ Next we'll export our credentials as environment variables and install the contr
 export NGROK_API_KEY=<YOUR Secret API KEY>
 export NGROK_AUTHTOKEN=<YOUR Secret Auth Token>
 
-helm install ngrok-ingress-controller ngrok/kubernetes-ingress-controller --version 0.6.0 \
+helm install ngrok-ingress-controller Abdiramen/kubernetes-operator-rename --version 0.6.0 \
   --namespace default \
   --set credentials.apiKey=$NGROK_API_KEY \
   --set credentials.authtoken=$NGROK_AUTHTOKEN

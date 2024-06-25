@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/go-logr/logr"
-	"github.com/ngrok/kubernetes-ingress-controller/internal/errors"
+	"github.com/Abdiramen/kubernetes-operator-rename/internal/errors"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 	netv1 "k8s.io/api/networking/v1"

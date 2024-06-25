@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/ngrok/kubernetes-ingress-controller/internal/mocks"
+	"github.com/Abdiramen/kubernetes-operator-rename/internal/mocks"
 )
 
 func TestConnectionIsClosed(t *testing.T) {

@@ -15,7 +15,7 @@ First we need to install the controller in the cluster. We'll export our credent
 export NGROK_API_KEY=<YOUR Secret API KEY>
 export NGROK_AUTHTOKEN=<YOUR Secret Auth Token>
 helm repo add ngrok https://ngrok.github.io/kubernetes-ingress-controller
-helm install ngrok-ingress-controller ngrok/kubernetes-ingress-controller --version 0.8.0 \
+helm install ngrok-ingress-controller Abdiramen/kubernetes-operator-rename --version 0.8.0 \
   --set image.tag=0.4.0 \
   --namespace ngrok-ingress-controller \
   --create-namespace \

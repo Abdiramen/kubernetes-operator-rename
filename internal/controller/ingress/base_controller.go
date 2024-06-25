@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	"github.com/ngrok/kubernetes-ingress-controller/internal/controller/controllers"
+	"github.com/Abdiramen/kubernetes-operator-rename/internal/controller/controllers"
 	"github.com/ngrok/ngrok-api-go/v5"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/client-go/tools/record"

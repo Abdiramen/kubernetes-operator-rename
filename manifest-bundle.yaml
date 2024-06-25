@@ -1313,7 +1313,7 @@ spec:
       serviceAccountName: ingress-controller-kubernetes-ingress-controller
       containers:
       - name: ngrok-ingress-controller
-        image: docker.io/ngrok/kubernetes-ingress-controller:latest
+        image: docker.io/Abdiramen/kubernetes-operator-rename:latest
         imagePullPolicy: IfNotPresent
         command:
         - /manager

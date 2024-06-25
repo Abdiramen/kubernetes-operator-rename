@@ -3,10 +3,10 @@ package compression
 import (
 	"testing"
 
-	ingressv1alpha1 "github.com/ngrok/kubernetes-ingress-controller/api/ingress/v1alpha1"
-	"github.com/ngrok/kubernetes-ingress-controller/internal/annotations/parser"
-	"github.com/ngrok/kubernetes-ingress-controller/internal/annotations/testutil"
-	"github.com/ngrok/kubernetes-ingress-controller/internal/errors"
+	ingressv1alpha1 "github.com/Abdiramen/kubernetes-operator-rename/api/ingress/v1alpha1"
+	"github.com/Abdiramen/kubernetes-operator-rename/internal/annotations/parser"
+	"github.com/Abdiramen/kubernetes-operator-rename/internal/annotations/testutil"
+	"github.com/Abdiramen/kubernetes-operator-rename/internal/errors"
 	"github.com/stretchr/testify/assert"
 )
 

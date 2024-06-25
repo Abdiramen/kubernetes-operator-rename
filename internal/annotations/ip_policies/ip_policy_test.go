@@ -3,9 +3,9 @@ package ip_policies
 import (
 	"testing"
 
-	ingressv1alpha1 "github.com/ngrok/kubernetes-ingress-controller/api/ingress/v1alpha1"
-	"github.com/ngrok/kubernetes-ingress-controller/internal/annotations/parser"
-	"github.com/ngrok/kubernetes-ingress-controller/internal/annotations/testutil"
+	ingressv1alpha1 "github.com/Abdiramen/kubernetes-operator-rename/api/ingress/v1alpha1"
+	"github.com/Abdiramen/kubernetes-operator-rename/internal/annotations/parser"
+	"github.com/Abdiramen/kubernetes-operator-rename/internal/annotations/testutil"
 	"github.com/stretchr/testify/assert"
 )
 

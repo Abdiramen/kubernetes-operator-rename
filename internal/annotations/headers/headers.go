@@ -1,9 +1,9 @@
 package headers
 
 import (
-	ingressv1alpha1 "github.com/ngrok/kubernetes-ingress-controller/api/ingress/v1alpha1"
-	"github.com/ngrok/kubernetes-ingress-controller/internal/annotations/parser"
-	"github.com/ngrok/kubernetes-ingress-controller/internal/errors"
+	ingressv1alpha1 "github.com/Abdiramen/kubernetes-operator-rename/api/ingress/v1alpha1"
+	"github.com/Abdiramen/kubernetes-operator-rename/internal/annotations/parser"
+	"github.com/Abdiramen/kubernetes-operator-rename/internal/errors"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )
 

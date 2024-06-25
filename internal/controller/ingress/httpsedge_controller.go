@@ -43,10 +43,10 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
 	"github.com/go-logr/logr"
-	ingressv1alpha1 "github.com/ngrok/kubernetes-ingress-controller/api/ingress/v1alpha1"
-	"github.com/ngrok/kubernetes-ingress-controller/internal/controller/controllers"
-	ierr "github.com/ngrok/kubernetes-ingress-controller/internal/errors"
-	"github.com/ngrok/kubernetes-ingress-controller/internal/ngrokapi"
+	ingressv1alpha1 "github.com/Abdiramen/kubernetes-operator-rename/api/ingress/v1alpha1"
+	"github.com/Abdiramen/kubernetes-operator-rename/internal/controller/controllers"
+	ierr "github.com/Abdiramen/kubernetes-operator-rename/internal/errors"
+	"github.com/Abdiramen/kubernetes-operator-rename/internal/ngrokapi"
 	"github.com/ngrok/ngrok-api-go/v5"
 	"github.com/ngrok/ngrok-api-go/v5/backends/tunnel_group"
 )
@@ -223,7 +223,7 @@ func (r *HTTPSEdgeReconciler) reconcileRoutes(ctx context.Context, edge *ingress
 		// It's important to note here that we are intentionally ommiting the `route.Backend` for new routes.
 		//  The success or failure of applying a route's modules is then strongly linked the state of its backend.
 		//  Thus, any route with a backend is considered properly configured.
-		//  See https://github.com/ngrok/kubernetes-ingress-controller/issues/208 for additional context.
+		//  See https://github.com/Abdiramen/kubernetes-operator-rename/issues/208 for additional context.
 		if match == nil {
 			routeLog.Info("Creating new route")
 			req := &ngrok.HTTPSEdgeRouteCreate{

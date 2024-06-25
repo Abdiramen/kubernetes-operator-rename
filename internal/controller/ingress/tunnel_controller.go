@@ -29,8 +29,8 @@ import (
 	"fmt"
 
 	"github.com/go-logr/logr"
-	ingressv1alpha1 "github.com/ngrok/kubernetes-ingress-controller/api/ingress/v1alpha1"
-	"github.com/ngrok/kubernetes-ingress-controller/pkg/tunneldriver"
+	ingressv1alpha1 "github.com/Abdiramen/kubernetes-operator-rename/api/ingress/v1alpha1"
+	"github.com/Abdiramen/kubernetes-operator-rename/pkg/tunneldriver"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/tools/record"
 	"k8s.io/utils/ptr"

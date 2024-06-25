@@ -46,16 +46,16 @@ import (
 
 	"github.com/ngrok/ngrok-api-go/v5"
 
-	ingressv1alpha1 "github.com/ngrok/kubernetes-ingress-controller/api/ingress/v1alpha1"
-	ngrokv1alpha1 "github.com/ngrok/kubernetes-ingress-controller/api/ngrok/v1alpha1"
-	"github.com/ngrok/kubernetes-ingress-controller/internal/annotations"
-	gatewaycontroller "github.com/ngrok/kubernetes-ingress-controller/internal/controller/gateway"
-	controllers "github.com/ngrok/kubernetes-ingress-controller/internal/controller/ingress"
-	ngrokctr "github.com/ngrok/kubernetes-ingress-controller/internal/controller/ngrok"
-	"github.com/ngrok/kubernetes-ingress-controller/internal/ngrokapi"
-	"github.com/ngrok/kubernetes-ingress-controller/internal/store"
-	"github.com/ngrok/kubernetes-ingress-controller/internal/version"
-	"github.com/ngrok/kubernetes-ingress-controller/pkg/tunneldriver"
+	ingressv1alpha1 "github.com/Abdiramen/kubernetes-operator-rename/api/ingress/v1alpha1"
+	ngrokv1alpha1 "github.com/Abdiramen/kubernetes-operator-rename/api/ngrok/v1alpha1"
+	"github.com/Abdiramen/kubernetes-operator-rename/internal/annotations"
+	gatewaycontroller "github.com/Abdiramen/kubernetes-operator-rename/internal/controller/gateway"
+	controllers "github.com/Abdiramen/kubernetes-operator-rename/internal/controller/ingress"
+	ngrokctr "github.com/Abdiramen/kubernetes-operator-rename/internal/controller/ngrok"
+	"github.com/Abdiramen/kubernetes-operator-rename/internal/ngrokapi"
+	"github.com/Abdiramen/kubernetes-operator-rename/internal/store"
+	"github.com/Abdiramen/kubernetes-operator-rename/internal/version"
+	"github.com/Abdiramen/kubernetes-operator-rename/pkg/tunneldriver"
 	//+kubebuilder:scaffold:imports
 )
 

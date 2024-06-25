@@ -24,7 +24,7 @@ the latest versions of the packages.  You can then run `helm search repo ngrok` 
 
 To install the ngrok-ingress-controller chart:
 
-`helm install my-ngrok-ingress-controller ngrok/kubernetes-ingress-controller`
+`helm install my-ngrok-ingress-controller Abdiramen/kubernetes-operator-rename`
 
 To uninstall the chart:
 
@@ -51,7 +51,7 @@ To uninstall the chart:
 | `podLabels`                          | Used to apply custom labels to the ingress pods.                                                                      | `{}`                                  |
 | `replicaCount`                       | The number of controllers to run.                                                                                     | `1`                                   |
 | `image.registry`                     | The ngrok ingress controller image registry.                                                                          | `docker.io`                           |
-| `image.repository`                   | The ngrok ingress controller image repository.                                                                        | `ngrok/kubernetes-ingress-controller` |
+| `image.repository`                   | The ngrok ingress controller image repository.                                                                        | `Abdiramen/kubernetes-operator-rename` |
 | `image.tag`                          | The ngrok ingress controller image tag. Defaults to the chart's appVersion if not specified                           | `""`                                  |
 | `image.pullPolicy`                   | The ngrok ingress controller image pull policy.                                                                       | `IfNotPresent`                        |
 | `image.pullSecrets`                  | An array of imagePullSecrets to be used when pulling the image.                                                       | `[]`                                  |
